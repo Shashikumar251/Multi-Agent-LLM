@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import streamlit as st
 import requests
 import yfinance as yf
@@ -103,3 +104,6 @@ if query := st.chat_input("Ask about weather, stocks, or both..."):
         status_placeholder.empty()
         response_placeholder.write(answer)
         st.session_state.display_history.append({"role": "assistant", "content": answer})
+=======
+
+>>>>>>> 381a40b92293c7d32180b2c4f3505b8639a9c90f
